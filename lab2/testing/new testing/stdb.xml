@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stdb.xsl" type="text/xsl"?>
+<university>
+  <student>
+    <name>shashank</name>
+    <usn>ni20is100</usn>
+    <year>2020</year>
+  </student>
+  <student>
+    <name>noel</name>
+    <usn>4ni20is100</usn>
+    <year>2020</year>
+  </student>
+  <student>
+    <name>shruthi</name>
+    <usn>ni20is100</usn>
+    <year>20220</year>
+  </student>
+</university>

@@ -1,0 +1,10 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href ="std.css" type= "text/css"?>
+
+<university>
+<student>
+<name>shashank</name>
+<usn>$ni20is100</usn>
+<year> 2020</year>
+</student>
+</university>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stdb.xsl" type="text/xsl"?>
+
+<university>
+<student>
+<name>shashank</name>
+<college>Nie</college>
+<branch>Ise</branch>
+<year>2020</year>
+<email>SHA@email.com</email>
+</student>
+</university>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stdb.xsl" type="text/xsl"?>
+<students>
+    <student>
+        <usn>1PI06ISE001</usn>
+        <name>Amar</name>
+        <college>PESIT</college>
+        <branch>ISE</branch>
+        <year>2006</year>
+        <email>amar@gmail.com</email>
+    </student>
+    <student>
+        <usn>1PI06ISE002</usn>
+        <name>Asha</name>
+        <college>PESIT</college>
+        <branch>ISE</branch>
+        <year>2006</year>
+        <email>asha@pesit.in</email>
+    </student>
+    <student>
+        <usn>1PI06ISE003</usn>
+        <name>Bhavya</name>
+        <college>PESIT</college>
+        <branch>ISE</branch>
+        <year>2006</year>
+        <email>bhavya@yahoo.com</email>
+    </student>
+</students>

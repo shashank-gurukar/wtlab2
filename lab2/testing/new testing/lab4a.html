@@ -1,0 +1,26 @@
+<html>
+    <head><title>vowel</title></head>
+    <body>
+        <script>
+            function vow(){
+                var str = prompt("enter ")
+               str= str.toLowerCase();
+                for(var i =0;i<str.length;i++){
+                    var c=str.charAt(i)
+                    if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'){
+                        document.write("found at" + (i+1));
+                        break;
+                    }else{
+                        document.write("no vowels in pos" +i);
+                    }
+
+                }
+            }
+            // function askk(){
+            //     var str = prompt("Enter string");
+            //     vow(str)
+            // }
+        </script>
+        <button onclick="vow()">click</button>
+    </body>
+</html>

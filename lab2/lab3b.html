@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title>Lab3b</title>
+<script>
+
+function revee(n){
+  var num=n;
+  var nums = num.split('').reverse().join('');
+  document.write("The reversed number is:"+nums);
+}
+
+function reverse(){
+   var n = prompt("Enter the number");
+   revee(n);
+}
+
+</script>
+</head>
+<body>
+<button onclick="reverse()">Click here</button>
+</body>
+</html>

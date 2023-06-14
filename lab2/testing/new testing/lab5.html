@@ -1,0 +1,23 @@
+<html>
+    <head><title>validate</title></head>
+    <body>
+        <script> 
+        function val(){
+            var usn= document.getElementById("usn").value;
+            var a = usn.search(/^[0-4][A-B]{2}[0-9]{2}[A-B]{2}[0-9]{3}$/)
+            if(a==0){
+                document.write("valid")
+            }
+            else{
+                document.write("not valid")
+            }
+        }
+        </script>
+
+        <form >
+            <label for=""><input type="text" id="usn"/> 
+            </label>
+            <button onclick="val()">submit</button>
+        </form>
+    </body>
+</html>

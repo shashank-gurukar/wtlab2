@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function vowel(str){
+            for(var i =0;i<str.length;i++){
+                var c=str.charAt(i)
+                if(c=="a"||c=="e"||c=="i"||c=="o"||c=="u"){
+                  document.write("the position is "+ (i+1))
+                  break;
+                }
+            }
+        }
+        function cclick(){
+            var n = prompt("enter sring");
+            vowel(n);
+        }
+    </script>
+    <button onclick="cclick()">submit</button>
+</body>
+</html>

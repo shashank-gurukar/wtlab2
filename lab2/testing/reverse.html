@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function vowel(str){
+           
+             str = str.split('').reverse().join('');
+             document.write(str)
+        }
+        function cclick(){
+            var n = prompt("enter sring");
+            vowel(n);
+        }
+    </script>
+    <button onclick="cclick()">submit</button>
+</body>
+</html>

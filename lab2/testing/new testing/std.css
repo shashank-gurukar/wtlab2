@@ -1,0 +1,14 @@
+student{
+    background-color:black;
+    border-style: double;
+    border-color: aliceblue;
+}
+name{
+    color: aliceblue;
+}
+year{
+    color: aliceblue;
+}
+usn{
+    color: aliceblue;
+}

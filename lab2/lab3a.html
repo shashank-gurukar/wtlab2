@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title>
+Lab3a
+</title>
+<script>
+function vowel(str)
+{
+   var st = str;
+   st = st.toUpperCase();
+   for(var i=0;i<st.length;i++){
+     var ch = st.charAt(i);
+     if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U'){
+        break;
+     }
+   }
+   if(i<st.length){
+     document.write("String found at pos"+(i+1));
+   }else{
+      document.write("Not found");
+   }
+}
+function vowelpos(){
+   var str=prompt("Enter the string");
+   vowel(str);
+}
+</script>
+</head>
+<body>
+<button onclick="vowelpos()">Click here</button>
+</body>
+</html>

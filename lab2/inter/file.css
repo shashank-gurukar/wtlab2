@@ -1,0 +1,13 @@
+university{
+    color: blue;
+    background-color: pink;
+    margin: 100px;
+    font-size: large;
+}
+name{
+    display: block;
+
+}
+age{
+    display: block;
+}
